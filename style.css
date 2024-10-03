@@ -1,1 +1,48 @@
+.carousel img {
 
+     width: 100%;
+
+     height: auto;
+
+}
+
+p{
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  width: max-content;
+  
+}
+
+.space {
+ 
+    margin: 25px 50px 75px 100px;
+	float: left;
+   
+}
+#g{
+	display:none;
+	width:225px;
+}
+#g2{
+	display:none;
+	width:225px;
+}
+
+#s{
+	display:none;
+	width:225px;
+}
+
+#a{
+	 font-size: 50px;
+}
+
+ul {
+  list-style-type: square;
+list-style-position: inside;
+  text-align: center;
+}
