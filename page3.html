@@ -1,14 +1,105 @@
 <!DOCTYPE html> <!--doctype decloration: trlls the browser that this is an HTML file -->
 <html> <!--opening HTML tag -->
   <head> <!--the head elemtn contains meta information about the page -->
-    <title>Example web page</title</head>  <!--the title shows in the tab of the browser -->
+    <title>Bravo Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src = "script.js"> </script>
+  </head>  <!--the title shows in the tab of the browser -->
 <body> <!--the body element contains all the content to display on the web page -->
-  <h1>Hello, World</h1>  <!-- the heading for the page -->
+ <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="home page">
+        <a class="nav-link active" href="index.html">home page</a>
+      </li>
+      <li class="ohgeesy">
+        <a class="nav-link p" href="page2.html">ohgeesy</a>
+      </li>
+      <li class="bravo the bag chaser">
+        <a class="nav-link " href="page3.html">bravo the bagchaser </a>
+      </li>
+      <li class="$suede">
+        <a class="nav-link g" href="page4.html">$suede</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <h1> Bravo The Bagchaser</h1>  <!-- the heading for the page -->
   <p>
-  Welcome to my web page.  this 
-  web page is a demonstratin of
-  HTML.
+	This page is about Bravo The Bagchaser
   </p>
-  <img src="wizkhalifa.webp" alt="raper wiz khalifa's mugshot">
+<p>Benjamin Rodriguez, also known as "Bravo the Bagchaser" was born on april 20, 2001, in the united states. Bravo has one son. Rapper and hip-hop recording artist who dropped the singles "Bravo Flexin'," "Bag Right," and "Fool Wit It" in 2019. His popularity led to him amassing more than 280,000 followers on Instagram. His song "Know Better" has amassed over 11 million streams on Spotify. He boasted more than 60,000 monthly listeners on Spotify in early 2020. He is under the label Break In Records. In 2021, he dropped a video for the song "Stay Dangerous", which he collaborated with Blueface and Drakeo, and on YouTube the music video has reached over 4 million views. He collaborated with Fenix Flexin on "Bravo Flexin'." </p>
+
+ <!-- Carousel -->
+<div id="demo" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner " >
+    <div class="carousel-item active w-100">
+      <img src="Bravo1.jpg" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Bravo2.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="bravo3.jpg" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+#new 
+<p id = "ll">
+	click this to see my favorite albums by Bravo:
+	</p>
+	<div id = "re">
+	<img src="album1.jpg" alt="back to the bag album cover" style="width:250px;height:250px;">
+	<img src="album2.png" alt="back to the bag album cover" style="width:250px;height:250px;">
+	<img src="album3.jpg" alt="back to the bag album cover" style="width:250px;height:250px;">
+	</div>
+	
+	<p id="pl">now we are going to test you on what you have learned so far, if your answer is right then it will turn green, if it is wrong then it will turn red </p>
+	<br> red = incorrect</br>
+	<br> green = correct</br>
+	<p>What is bravos real name?</p>
+	<ul>
+		<li class="incorrect">Benjamin Rodriguez</li> 
+		<li class="correct">Benjamin gonzalez</li>
+		<li class="incorrect">Benjamin Esteban caldero</li> 
+		<li class="incorrect">benjamin rendez mendoza</li>
+	</ul>
+	<p>when was he born?</p>
+	<ul>
+		<li class="incorrect">april 21, 2001</li>
+		<li class="incorrect">April 20, 2001</li>
+		<li class="correct">Apri 1, 2001</li> 
+		<li class="incorrect">april 11, 2001</li>
+	</ul>
+	<p>who did he collab with in the album Bravo flexin?</p>
+	<ul>
+		<li class="incorrect">mike sherm</li> 
+		<li class="incorrect">Peysoh</li>
+		<li class="incorrect">Fenix Flexin</li> 
+		<li class="correct">Fenixe Flexin</li> 
+	</ul>
+
  </body>
 </html> <!--closing HTMLA tag -->
